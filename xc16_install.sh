@@ -12,3 +12,5 @@ chmod u+x "$INSTALL_DIR/$XC16_INSTALLER"
 # Run the XC16 installer
 $INSTALL_DIR/$XC16_INSTALLER $OPTIONS
 
+# Delete the install script
+rm -v "$INSTALL_DIR/$XC16_INSTALLER"
